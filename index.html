@@ -1,14 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <title>Search</title>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="app.js"></script>
-  <style src="app.css"></style>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Search</title>
+    <link href="app.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.6.0/lodash.min.js"></script>    
+    <script src="app.js"></script>
+    
 </head>
 <body>
-  <input id="search" type="text"/>
-  <div id="results"></div>
+    <input id="search" type="text" value="tradegecko" />
+    <button id="btnSearch">Search</button>    
+    <div id="results">
+        <ul id="resultList"></ul>
+    </div>
 </body>
 </html>
